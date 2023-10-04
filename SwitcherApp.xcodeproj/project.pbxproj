@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		B845820A2ACE06A200A3DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84582092ACE06A200A3DF54 /* AppDelegate.swift */; };
 		B845820C2ACE06A200A3DF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845820B2ACE06A200A3DF54 /* SceneDelegate.swift */; };
-		B845820E2ACE06A200A3DF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845820D2ACE06A200A3DF54 /* ViewController.swift */; };
 		B84582112ACE06A200A3DF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B845820F2ACE06A200A3DF54 /* Main.storyboard */; };
 		B84582132ACE06A300A3DF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84582122ACE06A300A3DF54 /* Assets.xcassets */; };
 		B84582162ACE06A300A3DF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84582142ACE06A300A3DF54 /* LaunchScreen.storyboard */; };
 		B84582212ACE06A300A3DF54 /* SwitcherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84582202ACE06A300A3DF54 /* SwitcherAppTests.swift */; };
 		B845822B2ACE06A300A3DF54 /* SwitcherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845822A2ACE06A300A3DF54 /* SwitcherAppUITests.swift */; };
 		B845822D2ACE06A300A3DF54 /* SwitcherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845822C2ACE06A300A3DF54 /* SwitcherAppUITestsLaunchTests.swift */; };
+		B845823C2ACE06F000A3DF54 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845823B2ACE06F000A3DF54 /* SwitchingViewController.swift */; };
+		B845823E2ACE076200A3DF54 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845823D2ACE076200A3DF54 /* BlueViewController.swift */; };
+		B84582402ACE077800A3DF54 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845823F2ACE077800A3DF54 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		B84582062ACE06A200A3DF54 /* SwitcherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitcherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84582092ACE06A200A3DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B845820B2ACE06A200A3DF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B845820D2ACE06A200A3DF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B84582102ACE06A200A3DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84582122ACE06A300A3DF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84582152ACE06A300A3DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		B84582262ACE06A300A3DF54 /* SwitcherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitcherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B845822A2ACE06A300A3DF54 /* SwitcherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherAppUITests.swift; sourceTree = "<group>"; };
 		B845822C2ACE06A300A3DF54 /* SwitcherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B845823B2ACE06F000A3DF54 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		B845823D2ACE076200A3DF54 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		B845823F2ACE077800A3DF54 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		B84582082ACE06A200A3DF54 /* SwitcherApp */ = {
 			isa = PBXGroup;
 			children = (
+				B845823D2ACE076200A3DF54 /* BlueViewController.swift */,
+				B845823B2ACE06F000A3DF54 /* SwitchingViewController.swift */,
+				B845823F2ACE077800A3DF54 /* YellowViewController.swift */,
 				B84582092ACE06A200A3DF54 /* AppDelegate.swift */,
 				B845820B2ACE06A200A3DF54 /* SceneDelegate.swift */,
-				B845820D2ACE06A200A3DF54 /* ViewController.swift */,
 				B845820F2ACE06A200A3DF54 /* Main.storyboard */,
 				B84582122ACE06A300A3DF54 /* Assets.xcassets */,
 				B84582142ACE06A300A3DF54 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B845820E2ACE06A200A3DF54 /* ViewController.swift in Sources */,
 				B845820A2ACE06A200A3DF54 /* AppDelegate.swift in Sources */,
 				B845820C2ACE06A200A3DF54 /* SceneDelegate.swift in Sources */,
+				B845823E2ACE076200A3DF54 /* BlueViewController.swift in Sources */,
+				B845823C2ACE06F000A3DF54 /* SwitchingViewController.swift in Sources */,
+				B84582402ACE077800A3DF54 /* YellowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
